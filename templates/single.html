@@ -1,0 +1,13 @@
+{{define "content"}}
+<div class="container pt-5">
+    <div class="row">
+        <div class="col">
+            {{range .Posts}}
+                <h1 class="display-4">{{.Title}}</h1>
+                <p class="text-muted">{{.Created}}</p>
+                <p class="lead">{{.Content}}</p>
+            {{end}}
+        </div>
+    </div>
+</div>
+{{end}}
