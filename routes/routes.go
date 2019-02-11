@@ -2,8 +2,8 @@ package routes
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/kongebra/bsc/db"
-	"github.com/kongebra/bsc/homepage"
+	"github.com/kongebra/go-practice/db"
+	"github.com/kongebra/go-practice/homepage"
 	"log"
 )
 

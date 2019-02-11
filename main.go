@@ -2,10 +2,10 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/kongebra/bsc/db"
-	"github.com/kongebra/bsc/routes"
-	"github.com/kongebra/bsc/server"
-	"github.com/kongebra/bsc/utils"
+	"github.com/kongebra/go-practice/db"
+	"github.com/kongebra/go-practice/routes"
+	"github.com/kongebra/go-practice/server"
+	"github.com/kongebra/go-practice/utils"
 	"log"
 	"net/http"
 	"os"

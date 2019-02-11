@@ -1,6 +1,6 @@
 package db
 
-import "github.com/kongebra/bsc/models"
+import "github.com/kongebra/go-practice/models"
 
 // GetAllPosts returns all posts in the database
 func (d *Database) GetAllPosts() ([]models.Post, error) {

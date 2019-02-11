@@ -2,7 +2,7 @@ package homepage
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/kongebra/bsc/db"
+	"github.com/kongebra/go-practice/db"
 	"log"
 	"net/http"
 	"strconv"

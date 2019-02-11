@@ -1,7 +1,7 @@
 package homepage
 
 import (
-	"github.com/kongebra/bsc/models"
+	"github.com/kongebra/go-practice/models"
 	"html/template"
 	"net/http"
 )
